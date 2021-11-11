@@ -15,7 +15,7 @@ namespace tasklinq.Controllers
         TeacherDetailDataContext tec = new TeacherDetailDataContext();
         public ActionResult Index()
         {
-            var list = new List<string> { "Permanent","Temporary"};
+            var list = new List<string> { "Permanent","Temporary","Intern"};
             ViewBag.list = list;
             var list1 = new List<string> { "State", "National","International" };
             ViewBag.list1 = list1;
